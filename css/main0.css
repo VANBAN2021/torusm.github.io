@@ -1,0 +1,156 @@
+*{
+margin:0;
+padding	:0;
+box-sizing:border-box ;
+}
+@font-face{
+font-family:RobotoR;
+src:url(../fonts/12.ttf);
+
+}
+html,body,main{
+height:100%;	
+font-family:RobotoR;
+}
+.first{
+height:100%;
+background-image: url(../img/img3.jpeg);
+background-size: cover;
+background-position: center;}
+
+.first p{
+	color: white;
+}
+.tourism{
+width:100%;
+text-align:center; 
+padding-top:60px; 
+font-size:40px;
+
+}
+.text{
+width:40%;
+margin-top:15%;
+margin-left:5%;}
+.first-line{
+text-transform:uppercase;
+font-size:27px;
+font-weight:bold;
+letter-spacing:1px;
+opacity:0.6; 
+line-height:1;}
+.second-line{
+text-transform:uppercase;
+font-size:64px;
+line-height:1; 
+font-weight:bold;
+letter-spacing:5px;
+}
+.third-line{
+font-size:25px;
+
+}
+.second{
+height:100%;
+display:flex;
+justify-content:center; 
+align-items:center; 
+ }
+.gallery-container{
+	width:60%;
+	max-width: 1000px;
+}
+.img-container{
+width:100%;
+display:flex;
+align-self:flex-start; 
+
+}
+img{
+	display: block; 
+max-height:100%; 
+height:auto; 
+}
+.img2{
+margin-bottom:20px;
+}
+.gallery-text{
+display:flex; 
+justify-content:space-between;
+align-items:center; 
+margin-bottom:20px; 
+}
+.gallery-header{
+font-size:48px; 
+letter-spacing:2px;
+font-weight:bold;
+line-height:1;   
+}
+.gallery-p{
+	font-size :18px; 
+}
+.third{
+display:flex;
+justify-content:center;
+flex-direction:column;
+height:300px;
+padding: 0 25%;
+background-image:url(../img/img3.jpg);
+background-position:center;
+background-size: cover;
+}
+.last-header{
+color:white;
+font-size:20px;
+padding: 10px 20px;
+margin-bottom:40px;
+border: 1px solid white;
+}
+.last-text{
+color}
+.img2{
+margin-bottom:20px;
+}
+.gallery-text{
+display:flex; 
+justify-content:space-between;
+align-items:center; 
+margin-bottom:20px; 
+}
+.gallery-header{
+font-size:48px; 
+letter-spacing:2px;
+font-weight:bold;
+line-height:1;   
+}
+.gallery-p{
+	font-size :18px; 
+}
+.third{
+display:flex;
+justify-content:center;
+flex-direction:column;
+height:300px;
+padding: 0 25%;
+background-image:url(../img/img3.jpeg);
+background-position:center;
+background-size: cover;
+font-family:Roboto; 
+}
+.last-header{
+color:white;
+font-size:20px;
+padding: 10px 20px;
+margin-bottom:40px;
+border: 1px solid white;
+}
+
+
+.last-text{
+color:white; 
+font-size:19px; 
+text-align:center;
+line-height:1.9;
+letter-spacing:1px;
+font-family: Roboto;
+}
